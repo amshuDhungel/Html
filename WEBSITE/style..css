@@ -1,0 +1,165 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-image: url(new.png);
+    color: darkgoldenrod;
+    padding: 20px 50px;
+
+}
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-image: url(black.png);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.search-box{
+    background-image: url(black.png);
+    color: darkorange;
+    border: none;
+    background-color: transparent;
+}
+.search-box::placeholder{
+    color: darkgoldenrod;
+}
+
+.Offer{
+    font-size: 30px;
+    border-bottom: 2px goldenrod;
+    cursor:pointer;
+
+}
+.navbottom{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+.menuItem{
+    margin-right:50px;
+    cursor: pointer;
+    color: goldenrod;
+    font-weight: 100;
+    
+}
+.slider{
+    background-image: url(photo.png);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.slidewrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5%;
+    transition: all 1.5s ease-in-out;
+
+}
+
+.slideritem{
+    box-sizing: border-box;
+    width: 500vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 1.5rem
+}
+
+.slidertitle{
+    color: darkgoldenrod;
+    z-index: 1;
+    /* border: 2px solid; */
+    border-radius: 10%;
+    box-sizing: border-box;
+    /* background-image: url(black.png); */
+    right: 100%;
+}
+
+.sliderprice{
+    color: gold;
+    z-index: 1;
+    /* border: 2px solid; */
+    border-radius: 10%;
+    /* background-image: url(back.png); */
+}
+
+.buyButton{
+    position:static;
+    top: 50%;
+    right: 10%;
+    font-size: 20px;
+    font-weight: 900;
+    color: darkorange;
+    border: 1px solid gold;
+    background-image: url(black.png);
+    cursor: pointer;
+    z-index: 1;
+
+}
+.buyButton:hover{
+    background-color: darkgoldenrod;
+    color: gold;
+}
+
+.slideritem:nth-child(1){
+    background-image: url(black.png)
+
+}
+.slideritem:nth-child(2){
+    background-image: url(black.png)
+
+}
+.slideritem:nth-child(3){
+    background-image: url(black.png)
+
+}
+.slideritem:nth-child(4){
+    background-image: url(black.png)
+
+}
+.slideritem:nth-child(5){
+    background-image: url(black.png)
+
+}
+
+/* price */
+.slideritem:nth-child(1) .sliderprice{
+    background-image: url(black.png)
+
+}
+.slideritem:nth-child(2) .sliderprice{
+    background-image: url(black.png)
+
+}
+.slideritem:nth-child(3) .sliderprice{
+    background-image: url(black.png)
+
+}
+.slideritem:nth-child(4) .sliderprice{
+    background-image: url(black.png)
+
+}
+.slideritem:nth-child(5) .sliderprice{
+    background-image: url(black.png)
+
+}
+
+
+
+
